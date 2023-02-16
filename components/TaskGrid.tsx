@@ -25,7 +25,7 @@ const TaskGrid: FC<{
           </p>
         </div>
       ) : null}
-      <div className="py-2 grid grid-cols-3 gap-3">
+      <div className="py-2 grid grid-cols-1 sm:grid-cols-3 gap-3">
         {data.map((task, index) => (
           <TaskItem task={task} key={index} />
         ))}

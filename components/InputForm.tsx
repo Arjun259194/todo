@@ -29,8 +29,10 @@ const InputForm = () => {
   };
 
   return (
-    <section className="py-3">
-      <h2 className="mb-2 text-3xl font-semibold capitalize">Create a list</h2>
+    <section className="py-3 flex flex-col items-center sm:items-start">
+      <h2 className="mb-2 text-4xl text-center font-semibold capitalize">
+        Create a list
+      </h2>
       <textarea
         className="w-full p-2 min-h-[10rem] max-h-[14rem] border-2 border-gray-200 focus:border-gray-300 rounded-xl shadow-md focus:shadow-lg focus:outline-none scrollbar-hide"
         onChange={changeHandler}
